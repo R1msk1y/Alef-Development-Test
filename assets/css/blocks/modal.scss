@@ -1,0 +1,123 @@
+.modal{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2000;
+    display: none;
+
+
+}
+
+.modal__window{
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 3px #acabab;
+}
+.modal__title{
+    font-size: 2rem;
+    font-family: OpenSansB;
+    font-weight: bold;
+    text-align: center;
+    color: #0EA107;
+}
+.modal__titleTwo{
+    font-size: 2rem;
+    font-family: OpenSansB;
+    font-weight: bold;
+    text-align: center;
+    color: #EB5A1E;
+    margin-top: 5px;
+}
+
+.modal__productDescr {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 5px;
+    font-family: OpenSansSB;
+    font-weight: bold;
+}
+.modal__productCounter {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 5px;
+    font-family: OpenSansB;
+    font-weight: bold;
+    color: red;
+
+}
+
+
+.modal__show{
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2000;
+}
+
+// modal__favorites
+
+.modal__favorites {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2000;
+    display: none;
+}
+.modal__favorites-show{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2000;
+    display: block;
+}
+.modal__favorites-window {
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 3px #acabab;
+}
+.modal__favorites-title {
+    font-size: 2rem;
+    font-family: OpenSansB;
+    font-weight: bold;
+    text-align: center;
+    color: #0EA107;
+}
+.modal__favorites-productDescr {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 5px;
+    font-family: OpenSansSB;
+    font-weight: bold;
+}
+.modal__favorites-sybtitle {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 5px;
+    font-family: OpenSansSB;
+    font-weight: bold;
+    color: #EB5A1E;
+}
+

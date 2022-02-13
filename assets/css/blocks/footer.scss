@@ -1,0 +1,90 @@
+.footer{
+    padding-bottom: 70px;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__menu,
+.footer__submenu{
+    display: flex;
+    flex-direction: column;
+
+    h2{
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        line-height: 24px;
+    }
+    a{
+        font-size: 1.4rem;
+        color: $black;
+        line-height: 20px;
+        margin-top: 8px;
+    }
+
+
+}
+.footer__menu a:hover{
+    text-decoration: underline;
+}
+.footer__submenu a:hover{
+    text-decoration: underline;
+}
+
+
+
+.footer__menu a:first-child,
+.footer__submenu a:first-child{
+    margin-top: 4px;
+
+}
+.footer__submenu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 225px;
+}
+.footer__form{
+    h2{
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        line-height: 24px;
+    }
+}
+.footer__form-input{
+    border-bottom: 1px solid #C4C4C4;
+    width: 452px;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 45px;
+    font-size: 1.4rem;
+}
+.footer__form-input::placeholder{
+    color: $gray-dark;
+    font-size: 1.4rem;
+}
+.footer__form-case{
+    margin-top: 36px;
+
+}
+.footer__form-btn{
+    font-size: 1.4rem;
+    background-color: white;
+    border: 1px solid $black;
+    padding: 8px 28px;
+    letter-spacing: 1.4px;
+    transition: all .2s linear;
+
+    &:hover{
+        color: white;
+        background-color: $black;
+
+    }
+}
+.footer__mobileBox{
+    display: flex;
+}
+.footer__form-br{
+    display: none;
+}
